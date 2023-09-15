@@ -147,6 +147,14 @@ a {
 
 /* Responsive */
 
+/* xl desktop */
+@media (min-width: 1200px) {
+    .hamburger-menu {
+        display: none;
+    }
+}
+
+
 
 /* desktop */
 @media (max-width: 1199.98px) {
@@ -178,7 +186,6 @@ a {
 @media (max-width: 575.98px) {
 
  }
-
 
 
 
