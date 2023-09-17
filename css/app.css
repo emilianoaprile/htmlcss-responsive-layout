@@ -270,12 +270,55 @@ a {
         display: block;
     }
 
+    .card {
+        background-color: var(--light-blue);
+        border-radius: 30px;
+        height: 100%;
+        display: block;
+    }
+
+    .figure-hero-img {
+        padding-right: 205px;
+
+    }
+
+ }
+
+ @media (max-width: 767.98px) {
+
+    .navbar__list-items {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
  }
 
 
 
 /* mobile */
 @media (max-width: 575.98px) {
+
+    .navbar__list-items {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    .figure-hero-img {
+        padding-right: 0px;
+
+    }
+
+    .col-4, .col-8 {
+        flex-basis: 100%;
+    }
+
+
 
  }
 
