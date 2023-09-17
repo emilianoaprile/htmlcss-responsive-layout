@@ -17,6 +17,7 @@ menu {
 
 img {
     width: 100%;
+    display: block;
 }
 
 
@@ -56,6 +57,7 @@ a {
 .row {
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 .col-4 {
@@ -83,9 +85,19 @@ a {
 .justify-between {
     justify-content: space-between;
 }
+
 .align-items-center {
     align-items: center;
 }
+
+.centered-content {
+    text-align: center;
+}
+
+.letter-spacing {
+    letter-spacing: 3px;
+}
+
 
 
 /* component classes */
@@ -98,6 +110,25 @@ a {
     border-radius: 20px;
     padding: 0 18px;
 }
+
+/* aggiungi classe button e purple-btn ai bottoni purple */
+
+.purple-btn {  
+    padding: 0 18px;
+    background-color: var(--purple);
+    color: white;
+}
+
+.blue-btn {
+    background-color: var(--blue);
+    color: var(--light);
+    padding: 0 45px;
+    word-spacing: 2px;
+    margin-top: 40px;
+}
+
+
+
 
 /* header */
 .page-header {
@@ -126,6 +157,66 @@ a {
     color: var(--light);
 }
 
+/* hero */
+
+.card {
+    background-color: var(--light-blue);
+    border-radius: 30px;
+    display: flex;
+    height: 100%;
+}
+
+.card-content {
+    padding: 30px 25px;
+    
+}
+
+.card-content-title {
+    color: var(--blue);
+    font-size: 22px;
+    padding-bottom: 35px;
+}
+
+.card-content-text {
+    font-size: 17px;
+    line-height: 28px;
+}
+
+.card-content > i {
+    font-size: 60px;
+    color: var(--blue);
+    padding-bottom: 30px;
+}
+
+.blue-btn > i {
+    padding-right: 10px;
+}
+
+.card-phone-img {
+    display: flex;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.hero .col-4, .col-8 {
+    margin-bottom: 24px;
+}
+
+.hero {
+    padding: 50px 0 76px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* debug */
 
 .debug .container,
@@ -143,6 +234,7 @@ a {
     border: 2px solid black;
     padding: 10px;
 }
+
 
 
 /* Responsive */
