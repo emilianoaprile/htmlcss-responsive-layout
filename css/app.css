@@ -176,6 +176,13 @@ a {
     color: var(--blue);
 }
 
+.col-8,
+.col-4,
+.col-12 {
+    padding-bottom: 12px;
+    padding-top: 12px;
+}
+
 
 
 
@@ -253,11 +260,6 @@ a {
     width: 85%;
 }
 
-.hero .col-4,
-.col-8 {
-    margin-bottom: 24px;
-}
-
 .hero {
     padding: 50px 0 76px 0;
 }
@@ -280,7 +282,6 @@ a {
 .white-card {
     background-color: var(--light);
     border-radius: 30px;
-    margin-bottom: 24px;
 
 }
 
@@ -310,7 +311,6 @@ a {
     padding-bottom: 45px;
     border-radius: 30px;
     display: flex;
-    margin-top: 24px;
 }
 
 .testimonial-photo {
@@ -355,11 +355,69 @@ a {
 
 .benefits-section {
     background-color: var(--purple);
+    padding-bottom: 50px;
 }
 
 .title-lg {
     font-size: 60px;
 }
+
+/* About us - Section */
+
+.about-us-section {
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+
+.about-us-section .card-content-text {
+    margin-bottom: 70px;
+}
+
+.about-us-section .title-lg {
+    margin-bottom: 55px;
+}
+
+.about-us-section .figure-testimonial {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.about-us-section .testimonial-photo {
+    margin: 0 auto;
+    max-width: 200px;
+}
+
+.testimonial-cite {
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: 25px;
+}
+
+.testimonial .purple-btn {
+
+    padding-left: 15px;
+    padding-right: 25px;
+    font-size: 15px;
+    max-width: 100%;
+}
+
+.testimonial .fa-brands {
+    padding-right: 5px;
+}
+
+.testimonial {
+    position: relative;
+}
+
+.purple-quote {
+    position: absolute;
+    right: 58px;
+    top: 0;
+    font-size: 50px;
+    color: var(--purple);
+}
+
+
 
 
 
@@ -453,7 +511,6 @@ a {
 
     .white-card {
         background-color: var(--light);
-        height: min-content;
 
     }
 
@@ -467,6 +524,14 @@ a {
 
     .strategic-planning-title {
         font-size: 60px;
+    }
+
+    .about-us-section .col-4 {
+        flex-basis: 40%;
+    }
+
+    .about-us-section .col-8 {
+        flex-basis: 60%;
     }
 
 }
@@ -486,6 +551,13 @@ a {
     .col-6 {
         flex-basis: 100%;
     }
+
+    .about-us-section .col-4,
+    .about-us-section .col-8 {
+        flex-basis: 50%;
+    }
+
+
 
 }
 
@@ -538,6 +610,11 @@ a {
 
     .strategic-planning-title {
         font-size: 32px;
+    }
+
+    .about-us-section .col-4,
+    .about-us-section .col-8 {
+        flex-basis: 100%;
     }
 
 }
