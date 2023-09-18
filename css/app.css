@@ -20,11 +20,6 @@ img {
     display: block;
 }
 
-/* figure > img {
-    display: block;
-} */
-
-
 a {
     text-decoration: none;
     color: currentColor;
@@ -151,8 +146,6 @@ a {
     border-radius: 20px;
     padding: 0 18px;
 }
-
-/* aggiungi classe button e purple-btn ai bottoni purple */
 
 .purple-btn {
     padding: 0 18px;
@@ -426,7 +419,6 @@ a {
 
     .white-card {
         background-color: var(--light);
-        height: min-content;
 
     }
 
